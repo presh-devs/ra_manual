@@ -1,5 +1,7 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'ReusableCard.dart';
+import 'Icon_content.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,17 +19,116 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('RA Manual'),
+          backgroundColor: Color(0xFF2F1884),
+          centerTitle: true,
         ),
         body: Container(
+          color: Color(0xFF2F1884),
           child: SingleChildScrollView(
             child: Column(
               children: [
-                ReusableCard(),
-                ReusableCard(),
-                ReusableCard(),
-                ReusableCard(),
-                ReusableCard(),
-                ReusableCard(),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    ReusableCard(
+                      cardChild: IconContent(
+                        icon: Icons.hourglass_bottom,
+                        label: 'Worth of a Boy',
+                      ),
+                    ),
+                    ReusableCard(
+                      cardChild: IconContent(
+                        icon: Icons.hourglass_bottom,
+                        label: 'Worth of a Boy',
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    ReusableCard(
+                      cardChild: IconContent(
+                        icon: Icons.hourglass_bottom,
+                        label: 'Worth of a Boy',
+                      ),
+                    ),
+                    ReusableCard(
+                      cardChild: IconContent(
+                        icon: Icons.hourglass_bottom,
+                        label: 'Worth of a Boy',
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    ReusableCard(
+                      cardChild: IconContent(
+                        icon: Icons.hourglass_bottom,
+                        label: 'Worth of a Boy',
+                      ),
+                    ),
+                    ReusableCard(
+                      cardChild: IconContent(
+                        icon: Icons.hourglass_bottom,
+                        label: 'Worth of a Boy',
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    ReusableCard(
+                      cardChild: IconContent(
+                        icon: Icons.hourglass_bottom,
+                        label: 'Worth of a Boy',
+                      ),
+                    ),
+                    ReusableCard(
+                      cardChild: IconContent(
+                        icon: Icons.hourglass_bottom,
+                        label: 'Worth of a Boy',
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    ReusableCard(
+                      cardChild: IconContent(
+                        icon: Icons.hourglass_bottom,
+                        label: 'Worth of a Boy',
+                      ),
+                    ),
+                    ReusableCard(
+                      cardChild: IconContent(
+                        icon: Icons.hourglass_bottom,
+                        label: 'Worth of a Boy',
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    ReusableCard(
+                      cardChild: IconContent(
+                        icon: Icons.hourglass_bottom,
+                        label: 'Worth of a Boy',
+                      ),
+                    ),
+                    ReusableCard(
+                      cardChild: IconContent(
+                        icon: Icons.hourglass_bottom,
+                        label: 'Worth of a Boy',
+                      ),
+                    ),
+                  ],
+                ),
               ],
             ),
           ),
