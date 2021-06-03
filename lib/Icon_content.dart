@@ -14,14 +14,23 @@ class IconContent extends StatelessWidget {
         Icon(
           icon,
           size: 80.0,
+          color: Colors.white,
         ),
         SizedBox(
           height: 15.0,
         ),
         Text(
           label,
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ],
     );
   }
 }
+
+// #3A3260
+// #100339

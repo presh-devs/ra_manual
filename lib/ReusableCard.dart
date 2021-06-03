@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'Icon_content.dart';
 
 class ReusableCard extends StatelessWidget {
   ReusableCard({this.cardChild, this.onPress});
@@ -12,14 +11,14 @@ class ReusableCard extends StatelessWidget {
     return GestureDetector(
       onTap: onPress,
       child: Container(
-        height: 250,
-        width: 175,
+        height: 225,
+        width: 180,
         child: cardChild,
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(10.0),
-          color: Colors.white,
+          borderRadius: BorderRadius.circular(15.0),
+          color: Color(0xFF3A3260),
         ),
-        margin: EdgeInsets.all(10.0),
+        margin: EdgeInsets.only(top: 10, bottom: 10),
       ),
     );
   }
