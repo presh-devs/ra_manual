@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
+import 'package:ra_manual/content.dart';
 import 'home_page.dart';
 import 'package:flutter/material.dart';
-import 'worth_of_a_boy.dart';
+import 'contentPage.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => HomePage(),
         '/first': (context) => Worthofaboy(),
+        '/second': (context) => Abbreviations(),
       },
     );
   }

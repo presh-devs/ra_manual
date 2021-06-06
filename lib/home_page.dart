@@ -31,6 +31,9 @@ class HomePage extends StatelessWidget {
                     ),
                   ),
                   ReusableCard(
+                    onPress: () {
+                      Navigator.pushNamed(context, '/second');
+                    },
                     cardChild: IconContent(
                       icon: Icons.hourglass_bottom,
                       label: 'Worth of a Boy',
@@ -50,7 +53,7 @@ class HomePage extends StatelessWidget {
                   ReusableCard(
                     cardChild: IconContent(
                       icon: Icons.hourglass_bottom,
-                      label: 'Worth of a Boy',
+                      label: 'Abbreviations',
                     ),
                   ),
                 ],
@@ -61,30 +64,13 @@ class HomePage extends StatelessWidget {
                   ReusableCard(
                     cardChild: IconContent(
                       icon: Icons.hourglass_bottom,
-                      label: 'Worth of a Boy',
+                      label: 'Order Of Royal Ambassadors',
                     ),
                   ),
                   ReusableCard(
                     cardChild: IconContent(
                       icon: Icons.hourglass_bottom,
-                      label: 'Worth of a Boy',
-                    ),
-                  ),
-                ],
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  ReusableCard(
-                    cardChild: IconContent(
-                      icon: Icons.hourglass_bottom,
-                      label: 'Worth of a Boy',
-                    ),
-                  ),
-                  ReusableCard(
-                    cardChild: IconContent(
-                      icon: Icons.hourglass_bottom,
-                      label: 'Worth of a Boy',
+                      label: 'Vision & Goals',
                     ),
                   ),
                 ],
@@ -95,13 +81,13 @@ class HomePage extends StatelessWidget {
                   ReusableCard(
                     cardChild: IconContent(
                       icon: Icons.hourglass_bottom,
-                      label: 'Worth of a Boy',
+                      label: 'Cardinal Objectives',
                     ),
                   ),
                   ReusableCard(
                     cardChild: IconContent(
                       icon: Icons.hourglass_bottom,
-                      label: 'Worth of a Boy',
+                      label: ' Pledge',
                     ),
                   ),
                 ],
@@ -112,13 +98,98 @@ class HomePage extends StatelessWidget {
                   ReusableCard(
                     cardChild: IconContent(
                       icon: Icons.hourglass_bottom,
-                      label: 'Worth of a Boy',
+                      label: 'Anthem',
                     ),
                   ),
                   ReusableCard(
                     cardChild: IconContent(
                       icon: Icons.hourglass_bottom,
-                      label: 'Worth of a Boy',
+                      label: 'Commission & Declaration',
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  ReusableCard(
+                    cardChild: IconContent(
+                      icon: Icons.hourglass_bottom,
+                      label: 'Motto',
+                    ),
+                  ),
+                  ReusableCard(
+                    cardChild: IconContent(
+                      icon: Icons.hourglass_bottom,
+                      label: 'Emblem',
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  ReusableCard(
+                    cardChild: IconContent(
+                      icon: Icons.hourglass_bottom,
+                      label: 'Colours',
+                    ),
+                  ),
+                  ReusableCard(
+                    cardChild: IconContent(
+                      icon: Icons.hourglass_bottom,
+                      label: 'Ranks',
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  ReusableCard(
+                    cardChild: IconContent(
+                      icon: Icons.hourglass_bottom,
+                      label: 'Chapter',
+                    ),
+                  ),
+                  ReusableCard(
+                    cardChild: IconContent(
+                      icon: Icons.hourglass_bottom,
+                      label: 'Committees',
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  ReusableCard(
+                    cardChild: IconContent(
+                      icon: Icons.hourglass_bottom,
+                      label: 'Induction Of New Members',
+                    ),
+                  ),
+                  ReusableCard(
+                    cardChild: IconContent(
+                      icon: Icons.hourglass_bottom,
+                      label: 'Uniforms',
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  ReusableCard(
+                    cardChild: IconContent(
+                      icon: Icons.hourglass_bottom,
+                      label: 'Special Programmes',
+                    ),
+                  ),
+                  ReusableCard(
+                    cardChild: IconContent(
+                      icon: Icons.hourglass_bottom,
+                      label: 'Sponsoring Organizations',
                     ),
                   ),
                 ],
